@@ -1,0 +1,20 @@
+@import "mixins";
+@import "header";
+@import "footer";
+@import "single";
+@import "content";
+@import "fonts";
+
+
+html,body{
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+
+body{
+	min-width: 1140px;
+  	font-family: 'fira_sansregular';
+  	box-sizing: border-box;
+  	flex: auto;
+}

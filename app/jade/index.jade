@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= TestPortfolio
+    link(rel='stylesheet', href='app/css/style.css')
+    link(rel='stylesheet', href='bower_components/normalize-css/normalize.css')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='app/js/main.js')
+  body
+    div.wrapper
+      header.header
+        div.header__container
+         include _header
+      div.main
+        section.about__me
+         include _about__me
+        div.wrapper__course
+         include _wrapper__course
+      footer.footer
+        div.footer__text
+          p.
+            А это футер с текстом внутри. Он должен быть прибит к низу окна браузера, независимо от количества контента на странице и размера окна.
+
+
+	

@@ -1,0 +1,63 @@
+.header{
+	  min-width: 100%;
+	  height: 90px;
+	  background-color: #8CC34B;
+	  color: #FEFEFD;
+}
+.header__container{
+	max-width: 1140px;
+    margin: 0 auto;
+    @include clearfix;
+}
+.header__left{
+	@include clearfix;	
+	float:left;
+	width:30%;
+	.header__logo{
+		float:left;
+	}
+	.header__personalinfo{
+		float:right;
+	}
+	.header__logo{
+	width:90px;
+	height:90px;
+	position:relative;
+	}
+	.ava {
+	  max-width:64px;
+	  max-height:64px;		  
+	  border: 2px solid #fff;
+	  border-radius: 50%;
+	  position:absolute;
+	  top:0;
+	  right:0;
+	  left:0;
+	  bottom:0;
+	  margin: auto;	  
+	}
+}
+
+.header__personalinfo{	
+	& a{
+		text-decoration:none;
+		color:#fff;
+	}
+	& h3{
+		padding-top:10%;
+		margin:0;
+	}
+}
+.header__right{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items: center;	
+	height: 90px;
+	float:right;
+	width:20%;
+	.social{
+		
+		//margin-top:14%;
+	}
+}

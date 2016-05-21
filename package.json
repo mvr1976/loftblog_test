@@ -1,0 +1,24 @@
+{
+  "name": "rudik_test_gulp",
+  "version": "1.0.0",
+  "description": "^C",
+  "main": "^C",
+  "scripts": {
+    "test": "^C"
+  },
+  "repository": {
+    "type": "git",
+    "url": "^C"
+  },
+  "keywords": [
+    "^C"
+  ],
+  "author": "Max",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1"
+  }
+}

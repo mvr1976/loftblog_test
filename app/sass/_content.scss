@@ -1,0 +1,29 @@
+.main{
+	width:100%;
+	max-width:960px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.about__me{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	height: auto;
+}
+.article_about_me{
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.img_about_me{
+	width: 35%;
+	height: auto;
+}
+.text_about_me{
+	width: 65%;
+	height: auto;
+}

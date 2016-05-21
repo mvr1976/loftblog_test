@@ -1,0 +1,76 @@
+.wrapper__course{
+  max-width: 960px;
+  height: auto;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.course {  
+  margin:10px;
+  max-width: 300px;
+  height: auto;
+  color: #727272;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0 2px 3px 3px #E1E2DF;
+  box-sizing: border-box;
+    h3{
+      color:#212121;
+      cursor: pointer;
+      text-align: left;
+      padding-left: 20px;
+      // font-family:"FiraSans-Medium";
+    }
+    h3:hover{
+    color:#8CC34B;
+    }
+    p{
+    padding:10px 15px 0 22px;
+    line-height: 1.5;
+    color:#A1A1A1;
+  }
+    img{
+    cursor:pointer;
+  }
+    img:hover{
+    border-bottom:5px solid #8CC34B;
+  }
+    .checkbox_wrap{
+    background-image: url(../img/check-sprite.png) ;
+    background-position: 0;
+    float: left;
+    margin:20px;
+    padding:0;
+    width:20px;
+    height:20px;  
+    border-radius: 1px;
+    cursor:pointer;
+  }
+}
+
+.timing{
+  color:#BBBBBB;
+}
+.fa-clock-o{
+  color:#B6B6B6;
+  font-size: 15px;
+  padding-right: 7px;
+}
+.checkbox{
+  height:60px;
+  background-color: #F6F7F2;
+  
+}
+.checkbox h4{
+  display: block;
+  float: left;
+  color:#8C8D8C;
+  margin:20px 0 0 0;
+  font-size: 1.1em; 
+}
+
+input[type = "checkbox"]{
+  opacity: 0;
+  cursor:pointer; 
+}
